@@ -6,7 +6,7 @@ Status: Draft; target list confirmed by user · Sources checked: 2026-09-23
 
 GPTZero, Turnitin, and Copyleaks are the priority detector vendors. D2L Brightspace is the relevant learning management system (LMS). The user supplied [GPTZero](https://gptzero.me/), [Turnitin](https://www.turnitin.com/), and [Copyleaks' Brightspace integration](https://copyleaks.com/learning-management-systems/brightspace-plagiarism-checker).
 
-No ranking among the three detectors has been specified. The implementation order below is a proposal based on access, not an importance ranking.
+The user considers GPTZero and Turnitin especially advanced. Treat that as a hypothesis rather than an established performance ranking. The implementation order below is a proposal based on access, not measured accuracy.
 
 ## Platform versus detector
 
@@ -24,6 +24,24 @@ We do not yet know which provider, features, or settings are enabled in the user
 | D2L Brightspace | Integrates assignment workflows with Turnitin [6]; Copyleaks offers a plugin [3] | Actual course integration, enabled features, user role, and report availability | Record LMS context alongside the actual detector; do not invent a Brightspace AI score |
 
 The existence of an API does not establish account access or identical behavior between API, website, and LMS products. Verify those relationships through documentation or paired observations before pooling results.
+
+## Free testing options
+
+Checked 2026-09-23 against public vendor documentation; no live scans or account entitlements verified.
+
+| Provider | Free access documented | What that supports |
+| --- | --- | --- |
+| GPTZero | Free web plan; a limited API demo in its documentation without an account or API key [8][9] | Initial manual checks and an API demonstration. Exact current quotas remain unverified; this is not evidence of an unlimited free automation tier |
+| Copyleaks | Advertises free web scans up to 25,000 characters and limited new-user credits [10] | Small initial checks. Confirm the actual quota in the interface; a per-scan character limit is not a monthly allowance |
+| Turnitin | No public self-service free AI trial was identified in the reviewed sources; individual licenses and single-use subscriptions are not sold [4] | Establish existing institutional AI-report access before including it in testing |
+
+GPTZero says its general free/paid plans mainly differ in request and batch limits, while the educator plan incorporates education-specific data and different detector thresholds. Therefore, a free-plan result should not be assumed equivalent to an educator result. [9]
+
+Copyleaks' API sandbox does not consume credits but returns mock data rather than performing a real scan. Use it only for integration checks, never as benchmark evidence. Its pricing page directs API/LMS customers to sales; a free web allowance does not establish free production API access. [11][12]
+
+Free hosted checks are different from downloadable model weights. No official downloadable production detector weights were identified in the vendor documentation reviewed here. Plan around hosted access unless an official release is verified; an SDK is only a client, not the detector model.
+
+Proposed first step: use GPTZero and Copyleaks' available free checks for a small feasibility check and record the exact plan, surface, quota, and date. Size the later benchmark after real allowances are known. Keep Turnitin marked untested until access is established. No claim that GPTZero or Turnitin is the strongest detector has been validated by this access research.
 
 ## AI detection versus similarity
 
@@ -53,3 +71,8 @@ No accounts have been accessed, documents submitted, plans purchased, or integra
 5. [Turnitin: Using the AI Writing Report](https://guides.turnitin.com/hc/en-us/articles/22774058814093-Using-the-AI-Writing-Report)
 6. [D2L: Assignments and Turnitin](https://community.d2l.com/brightspace/kb/articles/4997-assignments-and-turnitin)
 7. [D2L support: Can students see AI reports with Turnitin?](https://community.d2l.com/brightspace/discussion/comment/16570)
+8. [GPTZero: Can I try the API for free?](https://support.gptzero.me/articles/7472477101-can-i-try-the-api-for-free)
+9. [GPTZero: Free versus paid plans](https://support.gptzero.me/articles/1272562776-what-is-the-difference-between-the-free-and-paid-for-plans)
+10. [Copyleaks: Free AI detector and FAQ](https://copyleaks.com/ai-detector)
+11. [Copyleaks: API overview and sandbox behavior](https://docs.copyleaks.com/using-the-apis/overview)
+12. [Copyleaks: Pricing](https://copyleaks.com/pricing)
