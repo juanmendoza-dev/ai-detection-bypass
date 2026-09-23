@@ -6,6 +6,8 @@ Status: Draft · Updated: 2026-09-23
 
 Build an AI text bypasser: a tool that rewrites AI-generated or AI-assisted text to reduce detection by AI text detectors. Begin with organized specifications and research before implementation.
 
+Confirmed priority targets: GPTZero, Turnitin, and Copyleaks, with D2L Brightspace as the relevant LMS context. See [target detectors and access](06-target-detectors-and-access.md) for verified capabilities and unresolved access requirements. Audience remains unconfirmed.
+
 ## First question to answer
 
 Can rewriting consistently reduce detection on selected detectors while preserving facts, meaning, readability, and the writer's intended voice?

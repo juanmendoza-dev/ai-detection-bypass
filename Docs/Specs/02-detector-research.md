@@ -33,10 +33,10 @@ Working inference: start with black-box evaluation of accessible detectors and q
 
 ## Research still needed
 
-- Choose the detectors that matter to the intended user.
+- Investigate the confirmed GPTZero, Turnitin, and Copyleaks targets and Brightspace context; see [target detectors and access](06-target-detectors-and-access.md).
 - Verify official access, score semantics, supported languages, length limits, pricing, retention, and automation terms for each candidate.
 - Record model versions where exposed; otherwise record the date and that the version is unknown.
 - Check more recent independent evaluations for the chosen detectors. The foundational papers above are not a 2026 product ranking.
 - Inspect benchmark licenses and provenance before downloading or reusing samples.
 
-No commercial detector integration, pricing, or performance claim has been validated for this project yet.
+Public API availability for GPTZero and Copyleaks and the Brightspace integration context are documented in the target research. No account access, working integration, pricing, or performance claim has been validated for this project yet.

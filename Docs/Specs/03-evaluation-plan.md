@@ -20,7 +20,9 @@ Split source documents evenly into development and held-out evaluation sets. Kee
 
 For each eligible document, compare the unchanged original, one fixed general-purpose clarity rewrite, and the candidate revision method. Use the same inputs and evaluation conditions.
 
-Select two accessible detectors, preferably with different documented approaches. For transfer testing, reserve an additional detector from method selection if access and budget permit. If only one is available, explicitly limit conclusions to that detector.
+The confirmed targets are GPTZero, Turnitin, and Copyleaks. Start with two accessible targets; GPTZero and Copyleaks are initial API candidates. For transfer testing, reserve a third from method selection if access and budget permit. Turnitin access is not yet established. If only one is available, explicitly limit conclusions to that detector. See [target detectors and access](06-target-detectors-and-access.md).
+
+Treat Brightspace as the delivery context for the configured vendor, not as an additional independent detector. Record API, website, and LMS checks separately until equivalence is established. Separate similarity reports from AI reports. Preserve suppressed/non-numeric results in their original form, and evaluate shared eligible inputs for cross-provider comparisons; report shorter or otherwise ineligible texts separately.
 
 Freeze the candidate method, generation settings, thresholds, and retry budget before the held-out run. Start with one revision per method per document. Any later adaptive experiment needs its own fixed budget and separate report; do not silently keep trying until a favorable result appears.
 

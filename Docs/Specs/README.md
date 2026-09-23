@@ -11,6 +11,7 @@ Start with the product brief, then the research and evaluation plan. These docum
 | [03-evaluation-plan.md](03-evaluation-plan.md) | How to test feasibility without misleading ourselves |
 | [04-system-outline.md](04-system-outline.md) | Proposed workflow and technical boundaries |
 | [05-decisions-and-roadmap.md](05-decisions-and-roadmap.md) | Open questions, decisions, and next steps |
+| [06-target-detectors-and-access.md](06-target-detectors-and-access.md) | GPTZero, Turnitin, Copyleaks, and the Brightspace integration context |
 
 ## Working conventions
 
