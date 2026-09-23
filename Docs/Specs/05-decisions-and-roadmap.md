@@ -8,6 +8,7 @@ Status: Draft · Updated: 2026-09-23
 | --- | --- |
 | Specifications live in `Docs/Specs` | User request |
 | Begin with planning and research | User request |
+| Current project budget is $0 | User explicitly confirmed; applies to detectors and other project services |
 | Explore an AI text bypasser | User's stated product idea |
 | Prioritize GPTZero, Turnitin, and Copyleaks; include D2L Brightspace as the LMS context | User's target list; platform distinction documented in [target research](06-target-detectors-and-access.md) |
 
@@ -23,7 +24,7 @@ English prose; personal draft editing as the provisional audience; an existing l
 | Which writing contexts matter? | Determines the benchmark; detector targets are now confirmed | Before collecting samples |
 | Which detector and features are enabled in the relevant Brightspace courses? | Identifies the actual vendor and report type behind the LMS | Before LMS evaluation |
 | What detector access is already available? | Determines whether checks can be automated | Before integrations |
-| What is the experiment budget? | Bounds documents, providers, and retries | Before paid requests |
+| Which permitted free allowances and existing local resources are available? | Determines what can run within the confirmed $0 budget | Before experiments |
 | What quality tradeoffs are acceptable? | Defines useful results | Before held-out evaluation |
 | What improvement, cost, and latency targets are required? | Prevents choosing success criteria after seeing results | Before held-out evaluation |
 | Is sending drafts to external services acceptable? | Determines processing and retention constraints | Before submitting drafts |

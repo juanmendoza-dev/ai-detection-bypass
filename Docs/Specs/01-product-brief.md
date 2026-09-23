@@ -16,6 +16,8 @@ This is a hypothesis to test. A result on one detector or a few examples does no
 
 ## Proposed first version
 
+Confirmed budget: $0. Detection, rewriting, hosting, and compute choices must fit existing resources or verified free allowances. See [zero-budget feasibility](07-zero-budget-feasibility.md).
+
 Start with a small experiment harness, then a simple text rewriting interface if the results justify it. Use an existing language model first; custom model training needs evidence that simpler approaches are insufficient.
 
 Provisional audience: someone editing their own AI-assisted drafts. Audience and intended writing context remain open decisions.

@@ -8,6 +8,8 @@ Does a revision method reduce detection compared with the original and a basic r
 
 No experiment has run. Sample counts and thresholds below are planning proposals, not results.
 
+The user has confirmed a $0 budget. The 60-document design is a target, not an approved workload: three conditions across two detectors could require 360 checks. First establish permitted access and actual free quotas; if only a small access check is possible, label it accordingly instead of claiming the full pilot completed. See [zero-budget feasibility](07-zero-budget-feasibility.md).
+
 ## Dataset
 
 Start with 60 source documents: 20 human-written, 20 generated, and 20 human-edited generated drafts. Keep mixed authorship separate from the binary human/generated comparison. Use material with known provenance and permission to process it.

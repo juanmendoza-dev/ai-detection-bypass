@@ -27,6 +27,8 @@ The existence of an API does not establish account access or identical behavior 
 
 ## Free testing options
 
+Follow-up: the user confirmed a $0 budget and asked about guest versus registered models and account automation. See [zero-budget feasibility](07-zero-budget-feasibility.md) for unresolved model entitlements and the service restrictions affecting automated/project use. The offers below do not establish permission for an automated optimization pipeline.
+
 Checked 2026-09-23 against public vendor documentation; no live scans or account entitlements verified.
 
 | Provider | Free access documented | What that supports |
@@ -60,7 +62,7 @@ D2L support describes the Turnitin AI indicator as instructor-only in its publis
 5. If all three vendors are accessible, consider reserving one from method selection for transfer testing. Decide which before the experiment.
 6. For LMS experiments, use an agreed test assignment and establish submission storage/indexing settings first. Do not use real graded submissions as an experiment harness.
 
-No accounts have been accessed, documents submitted, plans purchased, or integrations implemented. Access checks are the next dependency; budget and provider data handling remain unresolved.
+No accounts have been accessed, documents submitted, plans purchased, or integrations implemented. The budget is now confirmed at $0; access, permitted project use, and provider data handling remain unresolved.
 
 ## Sources
 
