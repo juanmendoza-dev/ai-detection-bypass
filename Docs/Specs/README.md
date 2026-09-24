@@ -13,6 +13,7 @@ Start with the product brief, then the research and evaluation plan. These docum
 | [05-decisions-and-roadmap.md](05-decisions-and-roadmap.md) | Open questions, decisions, and next steps |
 | [06-target-detectors-and-access.md](06-target-detectors-and-access.md) | GPTZero, Turnitin, Copyleaks, and the Brightspace integration context |
 | [07-zero-budget-feasibility.md](07-zero-budget-feasibility.md) | Free signup, model-access uncertainty, automation constraints, and the $0 plan |
+| [farm/README.md](farm/README.md) | Incremental paragraph-level detector coordination and feature specifications |
 
 ## Working conventions
 
