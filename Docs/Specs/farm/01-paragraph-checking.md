@@ -2,6 +2,8 @@
 
 Status: Draft · Updated: 2026-09-23
 
+Scope clarification: this document describes the assistant-proposed quota-aware alternative, not the account-creation farm the user subsequently clarified. See [the requested lifecycle](README.md#requested-access-mechanism-and-feasibility). Its implementation milestones are proposals, not an approved handoff to an engineer.
+
 ## First slice
 
 Accept one plain-text document, preserve its original content, divide it into paragraphs, and let the user select paragraphs and detectors for checks. Show each result beside the exact text submitted. No rewriting, LLM calls, adaptive optimization, or web application is required for this slice.
